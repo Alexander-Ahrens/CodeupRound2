@@ -1,3 +1,5 @@
+//======================= EXERCISE 1 =======================\\
+
 var a = 1;
 var b = a++;
 var c = ++a;
@@ -79,7 +81,7 @@ NaN == NaN
 
 
 
-// EXERCISE 2
+//======================= EXERCISE 2 =======================\\
 
 var sample = "Hello Codeup";
 sample.length;
@@ -94,7 +96,8 @@ sample.indexOf("C".substring(1, 5));
 
 
 
-// EXERCISE 3
+//======================= EXERCISE 3 =======================\\
+
 // lm = "The Little Mermaid";
 // bb = "Brother Bear";
 // h = "Hercules";
@@ -141,7 +144,7 @@ function discount() {
 discount();
 
 
-// EXERCISE 4
+//======================= EXERCISE 4 =======================\\
 
 function passwordWorks() {
     var username = 'codeup';
