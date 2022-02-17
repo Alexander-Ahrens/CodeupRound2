@@ -1,4 +1,4 @@
-"use strict";
+// "use strict";
 
 /**
  * TODO:
@@ -10,9 +10,9 @@
  */
 
 function sayHello(name) {
-    console.log('Hello, ' + name + '!');
+  console.log('Hello, ' + name + '!')
 }
-sayHello("codeup");
+sayHello('bruh');
 
 /**
  * TODO:
@@ -31,12 +31,12 @@ var helloMessage = sayHello(Alex);
  * console.
  */
 
-var myName = Alex;
-sayHello(myName);
+const myName = 'Alex'
+sayHello(myName)
 
 // Don't modify the following line, it generates a random number between 1 and 3
 // and stores it in a variable named random
-var random = Math.floor((Math.random() * 3) + 1);
+var random = Math.floor((Math.random() * 3) + 1)
 
 /**
  * TODO:
@@ -57,9 +57,9 @@ var random = Math.floor((Math.random() * 3) + 1);
  */
 
 function isTwo(num) {
-    num != isNaN();
-    console.log(num);
-    return num;
+  num != isNaN();
+  console.log(num);
+  return num;
 }
 isTwo(2);
 
@@ -77,10 +77,10 @@ isTwo(2);
  */
 
 function calculateTip(num) {
-    var mealCost = 10;
-    var tip = mealCost * .2;
-    console.log(tip);
-    return tip;
+  var mealCost = 10;
+  var tip = mealCost * .2;
+  console.log(tip);
+  return tip;
 }
 
 calculateTip(16);
